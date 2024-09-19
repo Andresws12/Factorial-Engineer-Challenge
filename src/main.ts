@@ -11,10 +11,6 @@ import App from './App.vue';
 const pinia = createPinia();
 const app = createApp(App);
 
-pinia.use(
-  createPersistedState({
-    auto: true,
-  })
-);
+pinia.use(createPersistedState());
 app.use(pinia).use(i18n).use(router);
 app.mount('#app');

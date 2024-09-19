@@ -1,5 +1,5 @@
 <template>
-  <div data-cy="home-section">
+  <section class="section" data-cy="home-section">
     {{ $t('common.titles.home') }}
-  </div>
+  </section>
 </template>

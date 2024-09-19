@@ -26,9 +26,9 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `
-          @import "/src/styles/utilities.scss";
-        `,
+        api: 'modern-compiler',
+        // Silence warnings caused by bulma
+        quietDeps: true,
       },
     },
   },

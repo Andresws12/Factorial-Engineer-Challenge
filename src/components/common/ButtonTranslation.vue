@@ -1,5 +1,8 @@
 <template>
-  <button class="button button-translations" @click="changeLanguage()">
+  <button
+    class="button is-primary button-translations"
+    @click="changeLanguage()"
+  >
     <span>{{ $i18n.locale }}</span>
   </button>
 </template>

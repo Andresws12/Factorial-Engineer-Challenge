@@ -1,3 +1,8 @@
+// Load Bulma's base styles and themes (including the minireset)
+@import 'bulma/sass';
+@import 'utilities';
+
+// Load our global styles
 @import 'modules/all';
 @import 'animations/all';
 @import 'yantramanav';
