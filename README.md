@@ -3,6 +3,8 @@
 ## Table of Contents
 
 1. [About The Project](#engineer-challenge)
+   - [Welcome to my Challenge](#welcome)
+   - [What am I going to present?](#going-to-present)
 2. [Built With](#built-with)
 3. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
@@ -19,9 +21,11 @@
 
 # <span id="engineer-challenge">🥸Product Growth - Engineer Challenge</span>
 
-<font size="4">**Welcome to my Challenge 👋.**</font>
+<span id="welcome"><font size="4">**Welcome to my Challenge 👋.**</font></span>
 
-To tackle this challenge, the first and most important step for me was to understand the task, the business idea, and the proposed product. With that foundation, I focused on developing a real MVP aligned with the current business needs, using the information provided. So, let's get to it!
+First of all, I want to thank you for the opportunity to get to know me, see how I work, and review my code. So, let's dive in!
+
+To tackle this challenge, the first and most important step for me was to understand the task, the business idea, and the proposed product. With that foundation, I focused on developing a real MVP aligned with the current business needs, using the information provided.
 
 First, I worked on understanding the key aspects of the company and its business model, breaking down the areas I found necessary:
 
@@ -34,6 +38,15 @@ Next, to have a clear reference of what we’re aiming for, I laid out a small e
 With this clearer understanding, I moved on to analyze the current state: what I need to know, what I should measure, and what might exist or emerge in the future. This allowed me to build a real MVP, based on all the data and insights discussed above. 
 
 ![mvp]
+
+With all the gathered information and a clearer, more defined MVP, I moved on to sketching a basic system architecture based on the available data. For an MVP, I obviously don’t need the full architecture, but it’s important to have a general vision of where I want to go, what I should have or know, and keep that in mind as I work. My focus is on having BFFs (Backend for Frontend) that can manage the necessary data for the frontend, collecting information and working hand in hand with both internal and external APIs.
+
+![architecture]
+
+<span id="going-to-present"><font size="4">**So, what am I going to present?🫵.**</font></span>
+
+Given the limited time available to develop this test and the fact that I’ve already spent a fair amount of time analyzing the MVP (haha!), my proposal is to deliver a small POC (proof of concept). With this, you’ll be able to see my working style, how I write my code, my best practices, and project structure. However, I’m not aiming to deliver a full MVP, as that wouldn’t be realistic given the scope of what’s being asked or what it could potentially become. Additionally, I want to present a global vision of how I would approach the development of a real MVP—starting with understanding the business and product, taking into account what we currently have, and ultimately designing a global architecture that can guide the development of a real, viable MVP
+
 ## URL🌐:
 
 [URL]
