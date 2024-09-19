@@ -45,7 +45,7 @@ With all the gathered information and a clearer, more defined MVP, I moved on to
 
 <span id="going-to-present"><font size="4">**So, what am I going to present?🫵.**</font></span>
 
-Given the limited time available to develop this test and the fact that I’ve already spent a fair amount of time analyzing the MVP (haha!), my proposal is to deliver a small POC (proof of concept). With this, you’ll be able to see my working style, how I write my code, my best practices, and project structure. However, I’m not aiming to deliver a full MVP, as that wouldn’t be realistic given the scope of what’s being asked or what it could potentially become. Additionally, I want to present a global vision of how I would approach the development of a real MVP—starting with understanding the business and product, taking into account what we currently have, and ultimately designing a global architecture that can guide the development of a real, viable MVP
+Given the limited time available to develop this test and the fact that I’ve already spent a fair amount of time analyzing the MVP jajajaja, my proposal is to deliver a small POC (proof of concept). With this, you’ll be able to see my working style, how I write my code, my best practices, and project structure. However, I’m not aiming to deliver a full MVP, as that wouldn’t be realistic given the scope of what’s being asked or what it could potentially become. Additionally, I want to present a global vision of how I would approach the development of a real MVP—starting with understanding the business and product, taking into account what we currently have, and ultimately designing a global architecture that can guide the development of a real, viable MVP
 
 ## URL🌐:
 
@@ -261,8 +261,6 @@ I have prepared simple testing and formatting commands to make our project more 
     │       ├── en             // All translations from English
     │       └── es             // All translations from Spanish
     ├── models                  // Common models to code structure
-    │   ├── icons                   // Icons models
-    │   │   └── fontawesome             // Fontawesome models
     │   └── utils                   // Common models
     ├── routes                  // All routes
     ├── stores                  // Common data
