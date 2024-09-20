@@ -1,5 +1,13 @@
 {
   "views": {
-    "home": {}
+    "home": {
+      "titles": {
+        "parts": "Parts:",
+        "bike": "Bike:",
+        "characteristics": "Characteristics:",
+        "options": "Options:",
+        "prices": "Prices:"
+      }
+    }
   }
 }

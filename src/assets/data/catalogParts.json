@@ -19,7 +19,7 @@
             "id": "diamond_frame",
             "value": "Diamond Frame",
             "basePrice": 400,
-            "stock": 15,
+            "stock": 0,
             "prices": [],
             "dependencies": []
           },
