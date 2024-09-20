@@ -26,7 +26,7 @@
             <p>
               {{ option.value }}
             </p>
-            <p>{{ $t('views.home.titles.prices') }} {{ option.basePrice }}</p>
+            <p>{{ $t('views.home.titles.price') }} {{ option.basePrice }}</p>
           </cards-layout>
         </cards-layout>
       </cards-layout>
