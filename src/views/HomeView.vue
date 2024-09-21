@@ -3,10 +3,14 @@
     <h1 class="title is-1">
       {{ $t('common.titles.home') }}
     </h1>
-    <container class="container columns is-multiple">
-      <parts-section class="column is-6" />
-      <bike-section class="column is-6" />
-    </container>
+    <div class="columns is-multiple">
+      <div class="column is-6">
+        <parts-section />
+      </div>
+      <div class="column is-6">
+        <bike-section />
+      </div>
+    </div>
   </section>
 </template>
 

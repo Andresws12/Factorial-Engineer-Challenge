@@ -1,6 +1,6 @@
-export interface Characteristic {
-  id: string;
-  name: string;
+export enum DependencyType {
+  Requires = 'requires',
+  Excludes = 'excludes',
 }
 
 export interface Option {
@@ -20,7 +20,7 @@ export interface Price {
 export interface Dependency {
   characteristicId: string;
   optionId: string;
-  type: 'requires' | 'excludes';
+  type: DependencyType.Requires | DependencyType.Excludes;
 }
 
 export interface CharacteristicWithOptions {

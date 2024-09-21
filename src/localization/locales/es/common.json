@@ -4,6 +4,12 @@
     "titles": {
       "home": "Inicio"
     },
+    "currency": {
+      "eur": {
+        "symbol": "€",
+        "name": "Euro"
+      }
+    },
     "subtitle": {},
     "inputs": {},
     "buttons": {},

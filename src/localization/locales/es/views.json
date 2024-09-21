@@ -6,7 +6,11 @@
         "bike": "Bicicleta:",
         "characteristics": "Caracteristicas:",
         "options": "Opciones:",
-        "price": "Precio:"
+        "price": "Precio:",
+        "total": "Total:",
+        "outStock": "Fuera de stock",
+        "requires": "Necesita",
+        "incompatible": "Incompatible con"
       }
     }
   }

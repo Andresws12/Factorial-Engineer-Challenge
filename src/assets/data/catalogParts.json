@@ -19,7 +19,7 @@
             "id": "diamond_frame",
             "value": "Diamond Frame",
             "basePrice": 400,
-            "stock": 0,
+            "stock": 45,
             "prices": [],
             "dependencies": []
           },
@@ -338,6 +338,14 @@
             "value": "Flat Handlebars",
             "basePrice": 50,
             "stock": 20,
+            "prices": [],
+            "dependencies": []
+          },
+          {
+            "id": "slim_handlebars",
+            "value": "Slim Handlebars",
+            "basePrice": 50,
+            "stock": 0,
             "prices": [],
             "dependencies": []
           }

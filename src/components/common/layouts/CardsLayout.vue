@@ -1,5 +1,5 @@
 <template>
-  <div class="card m-3 custom-cards">
+  <div class="card custom-cards">
     <div class="card-content">
       <div class="content">
         <slot />

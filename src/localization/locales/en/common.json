@@ -4,6 +4,12 @@
     "titles": {
       "home": "Home"
     },
+    "currency": {
+      "eur": {
+        "symbol": "€",
+        "name": "Euro"
+      }
+    },
     "subtitle": {},
     "inputs": {},
     "buttons": {},
