@@ -18,5 +18,9 @@
   &.is-selectable {
     cursor: pointer;
   }
+
+  &.is-selected {
+    border: 2px solid var(--bulma-primary);
+  }
 }
 </style>
