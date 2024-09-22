@@ -47,6 +47,12 @@ With all the gathered information and a clearer, more defined MVP, I moved on to
 
 Given the limited time available to develop this test and the fact that I’ve already spent a fair amount of time analyzing the MVP jajajaja, my proposal is to deliver a small POC (proof of concept). With this, you’ll be able to see my working style, how I write my code, my best practices, and project structure. However, I’m not aiming to deliver a full MVP, as that wouldn’t be realistic given the scope of what’s being asked or what it could potentially become. Additionally, I want to present a global vision of how I would approach the development of a real MVP. Starting with understanding the business and product, taking into account what we currently have, and ultimately designing a global architecture that can guide the development of a real, viable MVP
 
+Additionally, I would like to show how I maintain clean code and ensure a minimum level of stability. For this, I have prepared some basic unit and end-to-end tests, as well as pipelines that execute these tests, along with linting checks, style, and format validation. This ensures that the proof of concept (POC) meets a minimum quality standard.
+
+![e2e]
+![lints]
+![unit]
+
 ## URL🌐:
 
 [URL](https://factorial-engineer-challenge.pages.dev/)
@@ -271,9 +277,6 @@ I have prepared simple testing and formatting commands to make our project more 
     │   ├── modules                 // All global modules
     │   ├── transitions             // All global transitions
     │   └── variables               // All global variables
-    ├── tests                   // Unit tests
-    │   ├── components              // Components unit tests files
-    │   └── datastore               // Data unit tests files
     ├── views                   // Components with the views
     └── webservices             // Api connections files
         └── models                  // Models to api connections
@@ -288,6 +291,9 @@ I have prepared simple testing and formatting commands to make our project more 
 [example]: docs/img/Example.svg
 [mvp]: docs/img/MVP.svg
 [technologies]: docs/img/Technologies.svg
+[unit]: docs/img/unit.png
+[e2e]: docs/img/e2e.png
+[lints]: docs/img/lints.png
 
 <!-- End Markdown images -->
 
