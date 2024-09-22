@@ -1,9 +1,17 @@
 <template>
   <cards-layout data-cy="home-bike-section">
-    <h3 class="title is-2">{{ $t('views.home.titles.bike') }}</h3>
-    <ul>
-      <li v-for="(characteristics, partId) in selectedOptions" :key="partId">
-        <strong>{{ getPartName(partId) }}</strong>
+    <h3 class="title is-2" data-cy="home-bike-section-title">
+      {{ $t('views.home.titles.bike') }}
+    </h3>
+    <ul data-cy="home-bike-selected-parts">
+      <li
+        v-for="(characteristics, partId) in selectedOptions"
+        :key="partId"
+        data-cy="home-bike-selected-part"
+      >
+        <strong data-cy="home-bike-selected-part-name">{{
+          getPartName(partId)
+        }}</strong>
         <ul>
           <li
             v-for="(option, characteristicId) in characteristics"

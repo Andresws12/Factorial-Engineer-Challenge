@@ -1,8 +1,14 @@
 <template>
-  <cards-layout class="mb-3">
-    <p class="title is-4">{{ characteristic.name }}</p>
+  <cards-layout class="mb-3" data-cy="home-parts-characteristic">
+    <p data-cy="home-parts-characteristic-name" class="title is-4">
+      {{ characteristic.name }}
+    </p>
     <collapsible-layout>
-      <template #title>{{ $t('views.home.titles.options') }}</template>
+      <template #title>
+        <span data-cy="home-parts-characteristic-option-title">
+          {{ $t('views.home.titles.options') }}
+        </span>
+      </template>
       <div class="options-list columns is-multiline">
         <OptionComponent
           v-for="option in characteristic.options"

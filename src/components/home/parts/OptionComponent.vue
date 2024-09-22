@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div data-cy="home-parts-characteristic-option">
     <cards-layout :class="optionClasses" @click="handleOptionClick">
-      <p>
+      <p data-cy="home-parts-characteristic-option-value">
         {{ option.value }}
       </p>
       <p>

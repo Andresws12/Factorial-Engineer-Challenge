@@ -1,8 +1,10 @@
 <template>
-  <cards-layout class="mb-3">
+  <cards-layout class="mb-3" data-cy="home-parts">
     <collapsible-layout>
       <template #title>
-        <span class="title is-3">{{ part.name }}</span>
+        <span data-cy="home-parts-name" class="title is-3">
+          {{ part.name }}
+        </span>
       </template>
       <div
         v-for="characteristic in part.characteristics"
