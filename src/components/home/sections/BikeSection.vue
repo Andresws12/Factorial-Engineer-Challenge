@@ -1,5 +1,5 @@
 <template>
-  <cards-layout>
+  <cards-layout data-cy="home-bike-section">
     <h3 class="title is-2">{{ $t('views.home.titles.bike') }}</h3>
     <ul>
       <li v-for="(characteristics, partId) in selectedOptions" :key="partId">

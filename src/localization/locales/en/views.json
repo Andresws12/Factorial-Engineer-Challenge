@@ -10,7 +10,7 @@
         "total": "Total:",
         "outStock": "Out of stock",
         "requires": "Requires",
-        "incompatible": "incomplete"
+        "incompatible": "Incompatible with"
       }
     }
   }

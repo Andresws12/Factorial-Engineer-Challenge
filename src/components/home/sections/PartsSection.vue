@@ -1,5 +1,5 @@
 <template>
-  <cards-layout>
+  <cards-layout data-cy="home-parts-section">
     <h3 class="title is-2">{{ $t('views.home.titles.parts') }}</h3>
     <PartComponent
       v-for="part in partsStore.partsData"

@@ -1,6 +1,6 @@
 <template>
   <section class="section" data-cy="home-section">
-    <h1 class="title is-1">
+    <h1 class="title is-1" data-cy="home-title">
       {{ $t('common.titles.home') }}
     </h1>
     <div class="columns is-multiple">
