@@ -1,4 +1,3 @@
-// stores/parts.spec.ts
 import { setActivePinia, createPinia } from 'pinia';
 import { useI18n } from 'vue-i18n';
 
